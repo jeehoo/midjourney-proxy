@@ -1,16 +1,36 @@
 mj:
   discord:
-    guild-id: xxx
-    channel-id: xxx
-    user-token: xxx
+    guild-id: 1108352622076891146
+    channel-id: 1108352893288992870
+    user-token: MTA5OTkwMTAzNTA3NTYwNDY0MA.GwOcl1.kaym6YHZjRB2PNNdj3zq7LeWL7Sx3A-1vTB3kk
+    bot-token: MTEwODM1MzE5NzcxMTU3NzE3OQ.G9M7wv.DX3rxy87Ya_CkduaXQ8FCnVKi1VZVi6iJCehXA
     session-id: 9c4055428e13bcbf2248a6b36084c5f3
     user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
     user-wss: true
   task-store:
-    type: in_memory
-    timeout: 30d
-  translate-way: null
+    type: redis
+    timeout: 3d
+  translate-way: gpt
+  openai:
+    gpt-api-key: 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
   queue:
     timeout-minutes: 5
     core-size: 3
     queue-size: 10
+
+spring:
+  redis:
+    database: 2
+    host: ai-hr.cc
+    password: dsdfdfdgffdsffdsfgdgfgdsgdsfdsr53543243rdsfdsfdsf
+    port: 16379
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制） 默认 8
+        max-active: 200
+        # 连接池最大阻塞等待时间（使用负值表示没有限制） 默认 -1
+        max-wait: 20
+        # 连接池中的最大空闲连接 默认 8
+        max-idle: 10
+        # 连接池中的最小空闲连接 默认 8
+        min-idle: 8
