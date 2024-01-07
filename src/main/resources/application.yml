@@ -2,8 +2,8 @@ mj:
   discord:
     guild-id: 1108352622076891146
     channel-id: 1108352893288992870
-    user-token: MTA5OTkwMTAzNTA3NTYwNDY0MA.GwOcl1.kaym6YHZjRB2PNNdj3zq7LeWL7Sx3A-1vTB3kk
-    bot-token: MTEwODM1MzE5NzcxMTU3NzE3OQ.G9M7wv.DX3rxy87Ya_CkduaXQ8FCnVKi1VZVi6iJCehXA
+    user-token: MTA5OTkwMTAzNTA3NTYwNDY0MA.GmrcBn.8F90_WA4gqzzpF0wvTq1xkc-R4s6GjB5eNkmFk
+    bot-token: MTEwODM1MzE5NzcxMTU3NzE3OQ.GTPJ6H.WVEFwP_QLqtC8uy8bBAwqOHo-ce2gglRwRo7fk
     session-id: 9c4055428e13bcbf2248a6b36084c5f3
     user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
     user-wss: true
@@ -12,7 +12,7 @@ mj:
     timeout: 3d
   translate-way: gpt
   openai:
-    gpt-api-key: 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
+    gpt-api-key: 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
   queue:
     timeout-minutes: 5
     core-size: 3

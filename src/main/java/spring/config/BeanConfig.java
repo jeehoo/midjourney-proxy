@@ -34,6 +34,7 @@ public class BeanConfig {
 		return switch (properties.getTranslateWay()) {
 			case BAIDU -> new BaiduTranslateServiceImpl(properties.getBaiduTranslate());
 			case GPT -> new GPTTranslateServiceImpl(properties);
+			case XUNFEI -> new XunfeiTranslateServiceImpl(properties);
 			default -> prompt -> prompt;
 		};
 	}

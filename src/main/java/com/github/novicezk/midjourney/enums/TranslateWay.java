@@ -13,6 +13,7 @@ public enum TranslateWay {
 	/**
 	 * 不翻译.
 	 */
+	XUNFEI,
 	NULL
 
 }
